@@ -1,0 +1,22 @@
+{
+  "author": {
+    "name": "Juan La Jara"
+  },
+  "name": "dorios",
+  "description": "Simple left to right columns for your responsive adventures",
+  "version": "0.0.0",
+  "homepage": "https://github.com/wixo/dorios",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/wixo/dorios.git"
+  },
+  "dependencies": {
+    "jquery": "~2.0.3"
+  },
+  "main": "./dorios.js",
+  "gitHead": "f4f8e6881546f5127f8bb44fd5f700b90ec9e6e1",
+  "readme": "dorios\n======\n\nSimple left to right columns for your responsive adventures.\n",
+  "readmeFilename": "README.md",
+  "_id": "dorios@0.0.1",
+  "commit": "f4f8e6881546f5127f8bb44fd5f700b90ec9e6e1"
+}
