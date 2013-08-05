@@ -2,9 +2,16 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Doric</title>
+	<title>Dorios</title>
 	<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap.min.css" rel="stylesheet">
-	<link id="responsivar" rel="stylesheet" href="responsivar.css">
+	<!-- <link id="responsivar" rel="stylesheet" href="responsivar.css"> -->
+	<!-- Inline definition for responsivar prevent one http call -->
+	<style id="responsivar">
+	@media screen and (min-width: 980px) {.col-4 {}}
+	@media screen and (min-width: 768px) and (max-width: 979px) {.col-3 {}}
+	@media screen and (min-width: 481px) and (max-width: 767px) {.col-2 {}}
+	@media screen and (max-width: 480px) {.col-1 {}}
+	</style>
 	<link rel="stylesheet" href="main.css">
 </head>
 <body>
@@ -109,7 +116,7 @@
 		</div>
 	</div>
 	<script src="bower_components/jquery/jquery.js"></script>
-	<script src="bower_components/responsivar/responsivar.js"></script>
+	<script src="bower_components/responsivar.js/responsivar.js"></script>
 	<script src="bower_components/dorios/dorios.js"></script>
 	<script src="main.js"></script>
 </body>
