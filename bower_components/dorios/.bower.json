@@ -1,0 +1,25 @@
+{
+  "author": {
+    "name": "Juan La Jara"
+  },
+  "name": "dorios",
+  "description": "Simple left to right columns for your responsive adventures",
+  "homepage": "https://github.com/wixo/dorios",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/wixo/dorios.git"
+  },
+  "dependencies": {
+    "jquery": "~2.0.3"
+  },
+  "main": "./dorios.js",
+  "_release": "c4f0268d48",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "c4f0268d48e001b6369e0347f9b376dd23ea21f4"
+  },
+  "_source": "git://github.com/wixo/dorios.git",
+  "_target": "*",
+  "_direct": true
+}
