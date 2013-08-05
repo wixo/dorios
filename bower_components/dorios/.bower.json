@@ -13,11 +13,11 @@
     "jquery": "~2.0.3"
   },
   "main": "./dorios.js",
-  "_release": "c4f0268d48",
+  "_release": "0e85be5c36",
   "_resolution": {
     "type": "branch",
     "branch": "master",
-    "commit": "c4f0268d48e001b6369e0347f9b376dd23ea21f4"
+    "commit": "0e85be5c36a1297366974f018d141fb4a9f5d031"
   },
   "_source": "git://github.com/wixo/dorios.git",
   "_target": "*",
