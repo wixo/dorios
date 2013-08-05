@@ -36,13 +36,8 @@
 			}
 
 			self.items.forEach( function ( item ) {
-				if ( i < cc -1 ) {
-					$( item ).appendTo( self.columns[ i ] );
-					i++;
-				} else {
-					$( item ).appendTo( self.columns[ i ] );
-					i = 0;
-				}
+				$( item ).appendTo( self.columns[ i ] );
+				i = i < cc-1 ? i + 1 : 0;
 			} );
 
 			self.container.prependTo( self.parent );
