@@ -20,6 +20,7 @@
 			var i           = 0
 			  , cc          = givens && givens.columnCount || self.columnCount
 			  , columnCount = givens && givens.columnCount || self.columnCount
+			  , id
 			  ;
 
 			self.container.detach();
@@ -28,7 +29,7 @@
 			self.columns = [];
 
 			while ( columnCount-- ) {
-				var id = -( columnCount - cc );
+				id = -( columnCount - cc );
 				self.columns.push( $( document.createElement('div') )
 				                    .attr('class','dorios-column dorios-column-' + id)
 				                    .attr('data-dorios-id', id )
